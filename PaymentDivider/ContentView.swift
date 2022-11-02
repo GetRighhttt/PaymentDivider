@@ -44,14 +44,14 @@ struct ContentView: View {
                 /*
                  First Edit text field created.
                  */
-                Section(header: Text("Enter an amount")) {
+                Section(header: Text("Enter your payment amount")) {
                     // basically an edit text
                     TextField("Amount:", text: $totalCost).keyboardType(.decimalPad)
                 }
                 /*
                  Next Tip Percentage spinner created.
                  */
-                Section(header: Text("Select a tip amount (%)")) {
+                Section(header: Text("Select percentage you'd like to tip(%)")) {
                     // spinner in android/ drop down menu
                     Picker("Choose Tip Percentage Amount: ", selection: $tipIndex) {
                         ForEach(0 ..< tipPercentages.count, id: \.self) {
@@ -64,8 +64,8 @@ struct ContentView: View {
                  Determines how many people are present.
                  */
                 Section(header: Text("Number of Guest Present")) {
-                    Picker("Guest present:", selection: $people) {
-                        ForEach(0 ..< 31, id: \.self) {
+                    Picker("Choose Guest:", selection: $people) {
+                        ForEach(0 ..< 100, id: \.self) {
                             Text("\($0) people")
                         }
                     }.pickerStyle(NavigationLinkPickerStyle())
