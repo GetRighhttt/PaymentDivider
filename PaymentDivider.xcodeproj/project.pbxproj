@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118FA2A82912A00F002DA522 /* PaymentDividerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FA2A72912A00F002DA522 /* PaymentDividerApp.swift */; };
+		118FA2AA2912A00F002DA522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FA2A92912A00F002DA522 /* ContentView.swift */; };
+		118FA2AC2912A014002DA522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118FA2AB2912A014002DA522 /* Assets.xcassets */; };
+		118FA2B02912A014002DA522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118FA2AF2912A014002DA522 /* Preview Assets.xcassets */; };
+		118FA2BA2912A014002DA522 /* PaymentDividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FA2B92912A014002DA522 /* PaymentDividerTests.swift */; };
+		118FA2C42912A014002DA522 /* PaymentDividerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FA2C32912A014002DA522 /* PaymentDividerUITests.swift */; };
+		118FA2C62912A014002DA522 /* PaymentDividerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118FA2C52912A014002DA522 /* PaymentDividerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		118FA2B62912A014002DA522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118FA29C2912A00F002DA522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118FA2A32912A00F002DA522;
+			remoteInfo = PaymentDivider;
+		};
+		118FA2C02912A014002DA522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 118FA29C2912A00F002DA522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 118FA2A32912A00F002DA522;
+			remoteInfo = PaymentDivider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118FA2A42912A00F002DA522 /* PaymentDivider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentDivider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118FA2A72912A00F002DA522 /* PaymentDividerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDividerApp.swift; sourceTree = "<group>"; };
+		118FA2A92912A00F002DA522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		118FA2AB2912A014002DA522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		118FA2AD2912A014002DA522 /* PaymentDivider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaymentDivider.entitlements; sourceTree = "<group>"; };
+		118FA2AF2912A014002DA522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		118FA2B52912A014002DA522 /* PaymentDividerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentDividerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118FA2B92912A014002DA522 /* PaymentDividerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDividerTests.swift; sourceTree = "<group>"; };
+		118FA2BF2912A014002DA522 /* PaymentDividerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentDividerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		118FA2C32912A014002DA522 /* PaymentDividerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDividerUITests.swift; sourceTree = "<group>"; };
+		118FA2C52912A014002DA522 /* PaymentDividerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDividerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118FA2A12912A00F002DA522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2B22912A014002DA522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2BC2912A014002DA522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118FA29B2912A00F002DA522 = {
+			isa = PBXGroup;
+			children = (
+				118FA2A62912A00F002DA522 /* PaymentDivider */,
+				118FA2B82912A014002DA522 /* PaymentDividerTests */,
+				118FA2C22912A014002DA522 /* PaymentDividerUITests */,
+				118FA2A52912A00F002DA522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118FA2A52912A00F002DA522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118FA2A42912A00F002DA522 /* PaymentDivider.app */,
+				118FA2B52912A014002DA522 /* PaymentDividerTests.xctest */,
+				118FA2BF2912A014002DA522 /* PaymentDividerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118FA2A62912A00F002DA522 /* PaymentDivider */ = {
+			isa = PBXGroup;
+			children = (
+				118FA2A72912A00F002DA522 /* PaymentDividerApp.swift */,
+				118FA2A92912A00F002DA522 /* ContentView.swift */,
+				118FA2AB2912A014002DA522 /* Assets.xcassets */,
+				118FA2AD2912A014002DA522 /* PaymentDivider.entitlements */,
+				118FA2AE2912A014002DA522 /* Preview Content */,
+			);
+			path = PaymentDivider;
+			sourceTree = "<group>";
+		};
+		118FA2AE2912A014002DA522 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				118FA2AF2912A014002DA522 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		118FA2B82912A014002DA522 /* PaymentDividerTests */ = {
+			isa = PBXGroup;
+			children = (
+				118FA2B92912A014002DA522 /* PaymentDividerTests.swift */,
+			);
+			path = PaymentDividerTests;
+			sourceTree = "<group>";
+		};
+		118FA2C22912A014002DA522 /* PaymentDividerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				118FA2C32912A014002DA522 /* PaymentDividerUITests.swift */,
+				118FA2C52912A014002DA522 /* PaymentDividerUITestsLaunchTests.swift */,
+			);
+			path = PaymentDividerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		118FA2A32912A00F002DA522 /* PaymentDivider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FA2C92912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDivider" */;
+			buildPhases = (
+				118FA2A02912A00F002DA522 /* Sources */,
+				118FA2A12912A00F002DA522 /* Frameworks */,
+				118FA2A22912A00F002DA522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentDivider;
+			productName = PaymentDivider;
+			productReference = 118FA2A42912A00F002DA522 /* PaymentDivider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		118FA2B42912A014002DA522 /* PaymentDividerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FA2CC2912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDividerTests" */;
+			buildPhases = (
+				118FA2B12912A014002DA522 /* Sources */,
+				118FA2B22912A014002DA522 /* Frameworks */,
+				118FA2B32912A014002DA522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118FA2B72912A014002DA522 /* PBXTargetDependency */,
+			);
+			name = PaymentDividerTests;
+			productName = PaymentDividerTests;
+			productReference = 118FA2B52912A014002DA522 /* PaymentDividerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		118FA2BE2912A014002DA522 /* PaymentDividerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118FA2CF2912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDividerUITests" */;
+			buildPhases = (
+				118FA2BB2912A014002DA522 /* Sources */,
+				118FA2BC2912A014002DA522 /* Frameworks */,
+				118FA2BD2912A014002DA522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				118FA2C12912A014002DA522 /* PBXTargetDependency */,
+			);
+			name = PaymentDividerUITests;
+			productName = PaymentDividerUITests;
+			productReference = 118FA2BF2912A014002DA522 /* PaymentDividerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118FA29C2912A00F002DA522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					118FA2A32912A00F002DA522 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					118FA2B42912A014002DA522 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 118FA2A32912A00F002DA522;
+					};
+					118FA2BE2912A014002DA522 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 118FA2A32912A00F002DA522;
+					};
+				};
+			};
+			buildConfigurationList = 118FA29F2912A00F002DA522 /* Build configuration list for PBXProject "PaymentDivider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 118FA29B2912A00F002DA522;
+			productRefGroup = 118FA2A52912A00F002DA522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118FA2A32912A00F002DA522 /* PaymentDivider */,
+				118FA2B42912A014002DA522 /* PaymentDividerTests */,
+				118FA2BE2912A014002DA522 /* PaymentDividerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118FA2A22912A00F002DA522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118FA2B02912A014002DA522 /* Preview Assets.xcassets in Resources */,
+				118FA2AC2912A014002DA522 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2B32912A014002DA522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2BD2912A014002DA522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118FA2A02912A00F002DA522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118FA2AA2912A00F002DA522 /* ContentView.swift in Sources */,
+				118FA2A82912A00F002DA522 /* PaymentDividerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2B12912A014002DA522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118FA2BA2912A014002DA522 /* PaymentDividerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		118FA2BB2912A014002DA522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118FA2C42912A014002DA522 /* PaymentDividerUITests.swift in Sources */,
+				118FA2C62912A014002DA522 /* PaymentDividerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		118FA2B72912A014002DA522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118FA2A32912A00F002DA522 /* PaymentDivider */;
+			targetProxy = 118FA2B62912A014002DA522 /* PBXContainerItemProxy */;
+		};
+		118FA2C12912A014002DA522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 118FA2A32912A00F002DA522 /* PaymentDivider */;
+			targetProxy = 118FA2C02912A014002DA522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		118FA2C72912A014002DA522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		118FA2C82912A014002DA522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		118FA2CA2912A014002DA522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PaymentDivider/PaymentDivider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentDivider/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDivider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118FA2CB2912A014002DA522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PaymentDivider/PaymentDivider.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentDivider/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDivider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		118FA2CD2912A014002DA522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDividerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentDivider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentDivider";
+			};
+			name = Debug;
+		};
+		118FA2CE2912A014002DA522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDividerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentDivider.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PaymentDivider";
+			};
+			name = Release;
+		};
+		118FA2D02912A014002DA522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDividerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentDivider;
+			};
+			name = Debug;
+		};
+		118FA2D12912A014002DA522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P5T7XT5P2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GetRight.PaymentDividerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentDivider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118FA29F2912A00F002DA522 /* Build configuration list for PBXProject "PaymentDivider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118FA2C72912A014002DA522 /* Debug */,
+				118FA2C82912A014002DA522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118FA2C92912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDivider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118FA2CA2912A014002DA522 /* Debug */,
+				118FA2CB2912A014002DA522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118FA2CC2912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDividerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118FA2CD2912A014002DA522 /* Debug */,
+				118FA2CE2912A014002DA522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118FA2CF2912A014002DA522 /* Build configuration list for PBXNativeTarget "PaymentDividerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118FA2D02912A014002DA522 /* Debug */,
+				118FA2D12912A014002DA522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118FA29C2912A00F002DA522 /* Project object */;
+}
