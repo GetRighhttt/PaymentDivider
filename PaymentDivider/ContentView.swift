@@ -53,11 +53,11 @@ struct ContentView: View {
                  */
                 Section(header: Text("Select a tip amount (%)")) {
                     // spinner in android/ drop down menu
-                    Picker("Tip Percentage: ", selection: $tipIndex) {
+                    Picker("Choose Tip Percentage Amount: ", selection: $tipIndex) {
                         ForEach(0 ..< tipPercentages.count, id: \.self) {
                             Text("\(tipPercentages[$0])%")
                         }
-                    }.pickerStyle(WheelPickerStyle())
+                    }.pickerStyle(NavigationLinkPickerStyle())
                         .fixedSize()
                 }
                 /*
