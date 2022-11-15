@@ -9,6 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     
+    /*
+     background gradient(optional)
+     */
+    let backgroundColor = LinearGradient(colors: [.white,.indigo], startPoint: .topLeading, endPoint: .bottomTrailing)
+    
     /*'
      First we create four variables that we are going
      to use.
@@ -22,7 +27,7 @@ struct ContentView: View {
      Now we create the method to calculate the total cost.
      */
     
-    func calculateTotal() -> Double {
+    private func calculateTotal() -> Double {
         let tip = Double(tipPercentages[tipIndex])
         let orderTotal = Double(totalCost) ?? 0 // checks value, if nothing 0
         
@@ -35,7 +40,7 @@ struct ContentView: View {
      Here is where we create the UI.
      */
     var body: some View {
-    // allows us to create screens that change around
+        // allows us to create screens that change around
         NavigationView {
             /*
              This is where we seen the gray background show after the title in the simulator.
@@ -75,7 +80,9 @@ struct ContentView: View {
                     Text("USD \(calculateTotal(), specifier: "%.2f")")
                 }
             }.navigationTitle("Payment Divider")
+                .foregroundColor(.black)
                 .padding()
+                .background(.gray)
         }
     }
 }
